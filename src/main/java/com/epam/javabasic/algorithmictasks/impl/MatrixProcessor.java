@@ -1,4 +1,6 @@
-package com.epam.javabasic.algorithmictasks;
+package com.epam.javabasic.algorithmictasks.impl;
+
+import com.epam.javabasic.algorithmictasks.IMatrixProcessor;
 
 /**
  * Function Description:
@@ -15,7 +17,7 @@ package com.epam.javabasic.algorithmictasks;
  *
  * Created by anton_chyrko on 9/21/20.
  */
-public class MatrixProcessor {
+public class MatrixProcessor implements IMatrixProcessor {
 
 	/**
 	 * Matrix transpose is an operation on a matrix where its rows become columns with the same numbers.
@@ -27,6 +29,7 @@ public class MatrixProcessor {
 	 * @param matrix - matrix for transposition
 	 * @return the transposed matrix
 	 */
+	@Override
 	public double[][] transpose(double[][] matrix) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -41,6 +44,7 @@ public class MatrixProcessor {
 	 * @param matrix - rotation matrix
 	 * @return rotated matrix
 	 */
+	@Override
 	public double[][] turnClockwise(double[][] matrix) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -54,6 +58,7 @@ public class MatrixProcessor {
 	 * @param secondMatrix - second matrix to multiply
 	 * @return result matrix
 	 */
+	@Override
 	public double[][] multiplyMatrices(double[][] firstMatrix, double[][] secondMatrix) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -66,6 +71,7 @@ public class MatrixProcessor {
 	 * @param matrix - input matrix
 	 * @return inverse matrix for input matrix
 	 */
+	@Override
 	public double[][] getInverseMatrix(double[][] matrix) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -78,6 +84,7 @@ public class MatrixProcessor {
 	 * @param matrix - input matrix
 	 * @return determinant of input matrix
 	 */
+	@Override
 	public double getMatrixDeterminant(double[][] matrix) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
