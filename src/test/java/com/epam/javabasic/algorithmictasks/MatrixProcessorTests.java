@@ -1,0 +1,70 @@
+package com.epam.javabasic.algorithmictasks;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
+class MatrixProcessorTests extends AbstractTest {
+
+    @Test
+    void testInverseMatrixTwoOnTwoFractionalValues() {
+        double[][] inputMatrix = {{1.1, 0.3}, {-2.03, 3.67}};
+
+        double[][] expectedMatrix = {{0.790, -0.065}, {0.437, 0.237}};
+
+        double[][] actualMatrix = testClass.getInverseMatrix(inputMatrix);
+
+        Assertions.assertTrue(Arrays.deepEquals(actualMatrix, expectedMatrix),
+                formMsg(actualMatrix, expectedMatrix));
+    }
+
+    @Test
+    void testMatrixDeterminantTwoOnTwoFractionalValues() {
+        double[][] inputMatrix = {{1.1, 0.3}, {-2.03, 3.67}};
+
+        double expectedDeterminant = 4.646;
+
+        double actualDeterminant = testClass.getMatrixDeterminant(inputMatrix);
+
+        Assertions.assertEquals(expectedDeterminant, actualDeterminant,
+                formMsg(actualDeterminant, expectedDeterminant));
+    }
+
+    @Test
+    void testMultiplyTwoSquareMatricesTwoOnTwo() {
+        double[][] firstMatrix = {{1, 0}, {-2, 3}};
+        double[][] secondMatrix = {{-3, 15}, {5, -7}};
+
+        double[][] expectedMatrix = {{-3, 15}, {21, -51}};
+
+        double[][] actualMatrix = testClass.multiplyMatrices(firstMatrix, secondMatrix);
+
+        Assertions.assertTrue(Arrays.deepEquals(actualMatrix, expectedMatrix),
+                formMsg(actualMatrix, expectedMatrix));
+    }
+
+    @Test
+    void testMatrixOneRowTwoColumns() {
+        double[][] inputMatrix = {{-3, 15}};
+
+        double[][] expectedMatrix = {{-3}, {15}};
+
+        double[][] actualMatrix = testClass.transpose(inputMatrix);
+
+        Assertions.assertTrue(Arrays.deepEquals(actualMatrix, expectedMatrix),
+                formMsg(actualMatrix, expectedMatrix));
+    }
+
+    @Test
+    void testTurnMatrixOneRowTwoColumns() {
+        double[][] inputMatrix = {{-3, 15}};
+
+        double[][] expectedMatrix = {{-3}, {15}};
+
+        double[][] actualMatrix = testClass.turnClockwise(inputMatrix);
+
+        Assertions.assertTrue(Arrays.deepEquals(actualMatrix, expectedMatrix),
+                formMsg(actualMatrix, expectedMatrix));
+    }
+}
