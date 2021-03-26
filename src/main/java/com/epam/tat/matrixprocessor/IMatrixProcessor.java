@@ -1,4 +1,4 @@
-package com.epam.javabasic.algorithmictasks;
+package com.epam.tat.matrixprocessor;
 
 /**
  * Function Description:
@@ -13,7 +13,6 @@ package com.epam.javabasic.algorithmictasks;
  * In case of incorrect input values or inability to perform a calculation, the method should throw an appropriate
  * exception.
  * <p>
- * Created by anton_chyrko on 9/21/20.
  */
 public interface IMatrixProcessor {
 

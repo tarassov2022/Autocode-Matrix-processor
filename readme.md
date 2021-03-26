@@ -1,4 +1,23 @@
-## Function Description:
+# Matrix processor
+
+### Goals
+- Practice performing different operations over matrices in Java.
+- Practice in finding determinant of matrix.
+
+
+### Short description
+Implement  methods to perform following operations over matrices:
+
+- transpose matrix
+- turn matrix clockwise
+- multiply matrices
+- inverse matrix
+- find matrix determinant
+
+Please see readme.md  file in skeleton repository for detailed instructions.
+
+
+### Detailed description
 Complete the functions below. All methods must work with matrices of the double type.
 
 Constraints:

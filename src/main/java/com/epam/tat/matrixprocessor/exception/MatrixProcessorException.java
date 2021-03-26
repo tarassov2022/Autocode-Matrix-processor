@@ -1,4 +1,4 @@
-package com.epam.javabasic.algorithmictasks.exception;
+package com.epam.tat.matrixprocessor.exception;
 
 public class MatrixProcessorException extends RuntimeException {
 

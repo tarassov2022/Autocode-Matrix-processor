@@ -1,6 +1,6 @@
-package com.epam.javabasic.algorithmictasks.impl;
+package com.epam.tat.matrixprocessor.impl;
 
-import com.epam.javabasic.algorithmictasks.IMatrixProcessor;
+import com.epam.tat.matrixprocessor.IMatrixProcessor;
 
 /**
  * Function Description:
@@ -15,7 +15,6 @@ import com.epam.javabasic.algorithmictasks.IMatrixProcessor;
  * In case of incorrect input values or inability to perform a calculation, the method should throw an appropriate
  * exception.
  *
- * Created by anton_chyrko on 9/21/20.
  */
 public class MatrixProcessor implements IMatrixProcessor {
 
