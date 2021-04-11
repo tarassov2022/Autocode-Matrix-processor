@@ -1,8 +1,8 @@
 # Matrix processor
 
-### Goals
-- Practice performing different operations over matrices in Java.
-- Practice in finding determinant of matrix.
+### Abilities
+- Able to perform different operations over matrices in Java.
+- Able to find determinant of a matrix.
 
 
 ### Short description
@@ -17,7 +17,7 @@ Implement  methods to perform following operations over matrices:
 Please see readme.md  file in skeleton repository for detailed instructions.
 
 
-### Detailed description
+### Detailed instructions
 Complete the functions below. All methods must work with matrices of the double type.
 
 Constraints:
@@ -30,7 +30,7 @@ where m - number of rows in matrix
 where n - number of columns in matrix
 ```
 
-In case of incorrect input values or inability to perform a calculation, the method should throw MatrixProcessorException
+In case of incorrect input values or inability to perform a calculation, the method should throw `MatrixProcessorException`
 exception.
 
 ## double[][] transpose(double[][] matrix)
@@ -48,16 +48,16 @@ The method flips the matrix clockwise.
         [ 5 6 ]         
 
 ## double[][] multiplyMatrices(double[][] firstMatrix, double[][] secondMatrix)
-This method multiplies matrix firstMatrix by matrix secondMatrix
+This method multiplies matrix firstMatrix by matrix secondMatrix.
 
 See [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
 ## double[][] getInverseMatrix(double[][] matrix)
-This method returns the inverse of the matrix
+This method returns the inverse of the matrix.
 
 See [Invertible matrix](https://en.wikipedia.org/wiki/Invertible_matrix)
 
 ## double getMatrixDeterminant(double[][] matrix)
-This method returns the determinant of the matrix
+This method returns the determinant of the matrix.
 
 See [Determinant](https://en.wikipedia.org/wiki/Determinant)
