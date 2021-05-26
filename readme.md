@@ -48,12 +48,12 @@ The method flips the matrix clockwise.
         [ 5 6 ]         
 
 ## double[][] multiplyMatrices(double[][] firstMatrix, double[][] secondMatrix)
-This method multiplies matrix firstMatrix by matrix secondMatrix.
+This method multiplies matrix firstMatrix by matrix secondMatrix. The values in the resulting matrix should be rounded to 3 decimal places.
 
 See [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
 ## double[][] getInverseMatrix(double[][] matrix)
-This method returns the inverse of the matrix.
+This method returns the inverse of the matrix. The values in the resulting matrix should be rounded to 3 decimal places.
 
 See [Invertible matrix](https://en.wikipedia.org/wiki/Invertible_matrix)
 
